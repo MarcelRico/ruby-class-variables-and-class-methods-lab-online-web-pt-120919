@@ -33,6 +33,7 @@ class Song
     @@genres.uniq.each do |key|
       result[key] = @genres.count(key)
     end
+    result
   end
   
   
